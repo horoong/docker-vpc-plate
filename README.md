@@ -68,5 +68,8 @@ Password: your RDS password(AWS RDS)
 ##### 🚨주의사항
 * .pem 파일 공유 금지
 * .env 공유금지
+* 만약 로컬에서의 3306 port가 선점되어있다면 다른 포트로 변경
+    `${RDS_ENDPOINT}:3306` 이부분만 그대로 가져가고 다른 포트는 변경해서 사용
+    
 
 
