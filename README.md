@@ -47,6 +47,10 @@ docker compose up -d
 
 # 로그 확인
 docker compose logs -f mysql-tunnel
+
+# 15분 shutdown 기능 활용 시, 15분 후 자동 종료(과금 컷)
+./docker-tunnel.sh
+
 ```
 
 * docker desktop의 버전에 따라 `docker-compose`일 수 있음
